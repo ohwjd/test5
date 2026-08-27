@@ -26,7 +26,10 @@
             <application version="1" xml:id="lets-encode">
                <name xml:id="name-1">Let's Encode!</name>
             </application>
-         </appInfo>
+                     <application xml:id="app-mei-friend">
+               <name>mei-friend</name>
+            </application>
+</appInfo>
       </encodingDesc>
       <manifestationList xml:id="manifestationList-1">
          <manifestation xml:id="manifestation-1">
@@ -65,6 +68,14 @@
             </respStmt>
             <changeDesc>
                <p>Correct measure zones (P0002)</p>
+            </changeDesc>
+         </change>
+         <change n="4" isodate="2026-08-27">
+            <respStmt>
+               <persName>ohwjd</persName>
+            </respStmt>
+            <changeDesc>
+               <p>add note</p>
             </changeDesc>
          </change>
 </revisionDesc>
@@ -120,7 +131,7 @@
                <measure xml:id="measure-1" n="1" facs="#zone-1-1">
                   <staff xml:id="staff-1" n="1">
                      <layer xml:id="layer-1" n="1">
-                        <mRest xml:id="mRest-1"/>
+                        <note dur="1" oct="4" pname="c"/>
                      </layer>
                   </staff>
                   <staff xml:id="staff-2" n="2">
